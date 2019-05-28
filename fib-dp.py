@@ -11,7 +11,5 @@ def fib(num):
         for i in range(2,num+1):
             arr[i]=arr[i-1]+arr[i-2]
         return arr[num]
-
-print("Hello World")
-print(fib(3))
+print(fib(13))
     
